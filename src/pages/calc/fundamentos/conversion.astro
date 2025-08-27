@@ -1,0 +1,30 @@
+---
+import ConversionCalculator from '../../../components/ConversionCalculator';
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conversión W ↔ VA ↔ PF</title>
+  </head>
+  <body class="p-6 prose max-w-none">
+    <nav class="text-sm mb-4">
+      <a href="/" class="text-blue-600 hover:underline">Inicio</a>
+      {' / '}
+      <a href="/calc/fundamentos" class="text-blue-600 hover:underline">Fundamentos</a>
+      {' / '}
+      <span class="font-semibold">Conversión W-VA-PF</span>
+    </nav>
+    <h1 class="text-3xl font-bold mb-4">Conversión entre W, VA y factor de potencia</h1>
+    <p class="mb-6">
+      Utiliza esta herramienta para convertir rápidamente entre potencia real (W), potencia aparente (VA)
+      y factor de potencia (pf). Selecciona la magnitud que deseas calcular, introduce los otros
+      dos valores y pulsa en «Calcular» para obtener el resultado.
+    </p>
+    <ConversionCalculator client:load />
+    <div class="mt-6">
+      <a href="/calc/fundamentos" class="text-blue-600 hover:underline">&larr; Volver a Fundamentos</a>
+    </div>
+  </body>
+</html>
