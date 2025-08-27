@@ -22,4 +22,14 @@ This file documents the progress of building the ohmio-calc project.
   - Create `README.md` with project overview, architecture, setup and contribution instructions.
   - Add `src/pages/index.astro` as initial Astro page.
   - Add other essential files and directories per project structure.
+
+
   - Continue implementing calculators as per the defined groups and open PRs accordingly.
+
+### 2025-08-27 - Progress update
+
+- [x] Added `.github/PROGRESS.md` to track progress and tasks.
+- [x] Created `README.md` with project overview, architecture, setup and usage instructions.
+- [x] Added initial Astro page at `src/pages/index.astro`.
+- [ ] Create directories `src/components`, `src/features`, `src/styles`, `src/data`, `src/i18n`, `src/utils`, and `tests`.
+- [ ] Start implementing calculators for Group A (Fundamentos eléctricos), beginning with Ley de Ohm.
