@@ -1,0 +1,18 @@
+---
+import LeyDeOhmCalculator from "../../../components/LeyDeOhmCalculator";
+---
+
+<html lang="es">
+  <head>
+    <title>Ley de Ohm | Ohmio Calc</title>
+  </head>
+  <body class="p-4 space-y-4">
+    <a href="/" class="text-blue-600 hover:underline">Volver al inicio</a>
+    <nav class="text-sm text-gray-600">
+      <a href="/" class="hover:underline">Inicio</a> / <a href="/calc/fundamentos" class="hover:underline">Fundamentos eléctricos</a> / Ley de Ohm
+    </nav>
+    <h1 class="text-2xl font-bold">Ley de Ohm</h1>
+    <p>Introduce dos valores para calcular el tercero y, opcionalmente, la potencia.</p>
+    <LeyDeOhmCalculator client:load />
+  </body>
+</html>
